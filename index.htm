@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIME LEFT IN ASHURA</title>
+
+    <style>
+        body {
+            background-color: black;
+            box-sizing: border-box;
+            text-align: center;
+            color: red;
+        }
+        
+        #wrapper {
+            margin: 100px auto 0 auto;
+        }
+        
+        #heading>h1 {
+            width: 400px;
+        }
+        
+        h1 {
+            display: inline-block;
+            width: 100px;
+            background-color: white;
+        }
+        
+        h4 {
+            margin-top: -1px;
+            display: inline-block;
+            width: 100px;
+            background-color: white;
+        }
+        
+        @media screen and (max-width:600px) {
+            body {
+                background-color: black;
+                box-sizing: border-box;
+                text-align: center;
+                color: red;
+                font-size: 0.8rem;
+            }
+            #wrapper {
+                margin: 100px auto 50px auto;
+            }
+            #heading>h1 {
+                width: 100%;
+                font-size: 1.3rem;
+            }
+            h1 {
+                display: inline-block;
+                width: 100px;
+                background-color: white;
+            }
+            h4 {
+                display: inline-block;
+                width: 100%;
+                background-color: white;
+                font-size: 2em;
+                margin-top: 0.67em;
+                margin-bottom: 0.67em;
+                margin-left: 0;
+                margin-right: 0;
+                font-weight: bold;
+            }
+            #watch {
+                display: flex;
+                justify-content: space-around;
+            }
+            #subheading1 {
+                display: flex;
+                flex-direction: column;
+                order: 2;
+            }
+            #subheading2 {
+                display: flex;
+                flex-direction: column;
+                order: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="heading">
+            <h1>TIME LEFT IN ASHURA</h1>
+        </div>
+    </div>
+    <div id="watch">
+        <div id="subheading1">
+            <h1 id="day">0</h1>
+            <h1 id="hour">0</h1>
+            <h1 id="min">0</h1>
+            <h1 id="sec">0</h1>
+        </div>
+
+        <div id="subheading2">
+            <h4>DAYS </h4>
+            <h4>HOURS </h4>
+            <h4>MINUTES </h4>
+            <h4>SECONDS </h4>
+        </div>
+
+
+    </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
